@@ -1,6 +1,6 @@
 ## Project Nahra
 
-This is an training repository for our upcoming UGV competition.
+This is a training repository for our upcoming UGV competition.
 
 Name and files may change in time but this repo mainly follows the video course given by "Articulated Robotics" Josh Newans. Main focus of this little project is to
 understand the structure more by implementing topics to my robot while learning them. I already see improvement in my understanding of ROS and concepts in general.
