@@ -26,7 +26,18 @@
     <!-- Base Link -->
 
     <link name="base_link">
+    </link>
 
+    <!-- Base Footprint for SLAM -->
+    <!-- base footprint must be treated like it's on the floor. Our example robot is basically on the floor so we can treat it so -->
+
+    <joint name="base_footprint_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="base_footprint"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+    </joint>
+
+    <link name="base_footprint">
     </link>
     
     <!-- Chassis Joint / Link -->
